@@ -6,7 +6,7 @@ pipeline {
                 sh 'echo "ready"'
             }  
         } 
-        stage('Stage 1') {
+        stage('build') {
             steps {
                 sh 'xcodebuild -list -project "BullsEye/BullsEye.xcodeproj"'
             }
