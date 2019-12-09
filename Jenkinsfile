@@ -8,7 +8,7 @@ pipeline {
         } 
         stage('Stage 1') {
             steps {
-                sh 'xcodebuild -scheme "BullesEye" -project "BullsEye.xcodeproj"'
+                sh 'xcodebuild -scheme "BullesEye" -project "BullesEye/BullsEye.xcodeproj"'
             }
         }
     }
